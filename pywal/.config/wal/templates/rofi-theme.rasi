@@ -21,7 +21,7 @@
     selected-urgent-foreground: @foreground;
 
     background-color: @background;
-    background: {background};
+    background: {background}d9;
     foreground: {foreground};
     border-color: @background;
     spacing: 2;
@@ -33,10 +33,12 @@
 }}
 
 #message {{
+    background-color: #00000000;
     border-color: @border-color;
 }}
 
 #textbox {{
+    background-color: #00000000;
     text-color: @foreground;
 }}
 
@@ -46,15 +48,16 @@
 
 #listview {{
     border-color: @border-color;
+    background-color: #00000000;
 }}
 
 #element-text, element-icon {{
-    background-color: inherit;
+    background-color: #00000000;
     text-color:       inherit;
 }}
 
 #element.normal.normal {{
-    background-color: @normal-background;
+    background-color: #00000000;
     text-color: @normal-foreground;
 }}
 
@@ -84,7 +87,7 @@
 }}
 
 #element.alternate.normal {{
-    background-color: @alternate-normal-background;
+    background-color: #00000000;
     text-color: @alternate-normal-foreground;
 }}
 
@@ -112,6 +115,7 @@
 }}
 
 #inputbar {{
+    background-color: #00000000;
     text-color: @normal-foreground;
 }}
 
@@ -120,6 +124,7 @@
 }}
 
 #entry {{
+    background-color: #00000000;
     text-color: @normal-foreground;
 }}
 

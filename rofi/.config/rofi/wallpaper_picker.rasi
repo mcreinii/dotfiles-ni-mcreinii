@@ -7,11 +7,6 @@
 window {
     border: 4px;
     padding: 8px;
-    children: [mainbox];
-}
-
-mainbox {
-    padding: 0;
     children: [listview];
 }
 
