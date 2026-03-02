@@ -1,0 +1,18 @@
+[general]
+import = [ "~/.cache/wal/colors-alacritty.toml" ]
+live_config_reload = true
+
+[window]
+opacity = 0.90
+dynamic_title = true
+decorations = "full"
+padding = { x = 4, y = 4 }
+dynamic_padding = true
+
+[font]
+normal= {family = "0xProto Nerd Font Mono", style = "Regular"}
+size = 13.0
+
+[scrolling]
+history = 10000
+multiplier = 4

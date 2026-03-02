@@ -1,0 +1,28 @@
+{
+    "checksum": "7ac245ad01d47d3167b1b9b5c0629067",
+    "wallpaper": "/home/mcreinii/Wallpapers/#03.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101010",
+        "foreground": "#c3c3c3",
+        "cursor": "#c3c3c3"
+    },
+    "colors": {
+        "color0": "#101010",
+        "color1": "#586DAE",
+        "color2": "#647AB6",
+        "color3": "#6376D1",
+        "color4": "#6981BC",
+        "color5": "#6E88CE",
+        "color6": "#7891E2",
+        "color7": "#c3c3c3",
+        "color8": "#6c5959",
+        "color9": "#586DAE",
+        "color10": "#647AB6",
+        "color11": "#6376D1",
+        "color12": "#6981BC",
+        "color13": "#6E88CE",
+        "color14": "#7891E2",
+        "color15": "#c3c3c3"
+    }
+}

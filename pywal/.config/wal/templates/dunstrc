@@ -1,0 +1,16 @@
+# Pywal16 Dunst colors only
+
+[urgency_low]
+background = {background}
+foreground = {foreground}
+
+[urgency_normal]
+background = {primary}
+foreground = {foreground}
+
+[urgency_critical]
+background = {alert}
+foreground = {foreground}
+
+[frame]
+color = {background}

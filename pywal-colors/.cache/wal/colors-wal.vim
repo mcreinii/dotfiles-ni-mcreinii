@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/mcreinii/Wallpapers/#12.png"
+let background = "#0d0d1f"
+let foreground = "#c2c2c7"
+let cursor     = "#c2c2c7"
+
+" Colors
+let color0  = "#0d0d1f"
+let color1  = "#3D4E64"
+let color2  = "#43425E"
+let color3  = "#404060"
+let color4  = "#424867"
+let color5  = "#45506B"
+let color6  = "#43506D"
+let color7  = "#c2c2c7"
+let color8  = "#5c5c71"
+let color9  = "#3D4E64"
+let color10 = "#43425E"
+let color11 = "#404060"
+let color12 = "#424867"
+let color13 = "#45506B"
+let color14 = "#43506D"
+let color15 = "#c2c2c7"

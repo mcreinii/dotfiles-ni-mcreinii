@@ -1,0 +1,27 @@
+@theme "~/.cache/wal/rofi-theme.rasi"
+
+* {
+    font: "0xProto Nerd Font Mono 13";
+}
+
+#window {
+    border: 2;
+    padding: 8px;
+    children: [listview];
+}
+
+#listview {
+    columns: 1;            
+    lines: 5;             
+    spacing: 4px;        
+    dynamic: true;
+    fixed-height: false;
+    fixed-columns: false;
+    children: [element];
+    spacing: 4px;
+}
+
+#element {
+    border: 0;
+    children: [element-text];
+}
