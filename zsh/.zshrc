@@ -1,3 +1,4 @@
+# zmodload zsh/zprof
 export GALLIUM_DRIVER=virpipe
 export MESA_GL_VERSION_OVERRIDE=4.0
 
@@ -18,3 +19,5 @@ compinit
 export PATH="$PATH:/home/mcreinii/.local/bin"
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+# zprof

@@ -16,29 +16,29 @@ $character
 # ------------------------
 
 [character]
-success_symbol = "[➜](bold #BB8566)"
-error_symbol = "[➜](bold #C15846)"
+success_symbol = "[➜](bold #647AB6)"
+error_symbol = "[➜](bold #586DAE)"
 
 [directory]
-style = "bold #BA7784"
+style = "bold #6981BC"
 truncation_length = 3
 
 [git_branch]
 symbol = " "
-style = "bold #F0AD9D"
+style = "bold #6E88CE"
 
 [git_status]
-style = "#DB9572"
+style = "#6376D1"
 
 [cmd_duration]
-style = "bold #F1B191"
+style = "bold #7891E2"
 format = "[$duration]($style) "
 
 [hostname]
-style = "#BB8566"
+style = "#647AB6"
 ssh_only = false
 
 [username]
-style_user = "bold #C15846"
-style_root = "bold #C15846"
+style_user = "bold #586DAE"
+style_root = "bold #586DAE"
 format = "[$user]($style) "

@@ -1,29 +1,29 @@
 {
-    "checksum": "1c315abe2c1dfa44ec2d020c65e90775",
-    "wallpaper": "/home/mcreinii/Wallpapers/#02.png",
+    "checksum": "7ac245ad01d47d3167b1b9b5c0629067",
+    "wallpaper": "/home/mcreinii/Wallpapers/#03.png",
     "alpha": "100",
 
     "special": {
-        "background": "#170909",
-        "foreground": "#c5c1c1",
-        "cursor": "#c5c1c1"
+        "background": "#101010",
+        "foreground": "#c3c3c3",
+        "cursor": "#c3c3c3"
     },
     "colors": {
-        "color0": "#170909",
-        "color1": "#C15846",
-        "color2": "#BB8566",
-        "color3": "#DB9572",
-        "color4": "#BA7784",
-        "color5": "#F0AD9D",
-        "color6": "#F1B191",
-        "color7": "#c5c1c1",
-        "color8": "#6d5959",
-        "color9": "#C15846",
-        "color10": "#BB8566",
-        "color11": "#DB9572",
-        "color12": "#BA7784",
-        "color13": "#F0AD9D",
-        "color14": "#F1B191",
-        "color15": "#c5c1c1"
+        "color0": "#101010",
+        "color1": "#586DAE",
+        "color2": "#647AB6",
+        "color3": "#6376D1",
+        "color4": "#6981BC",
+        "color5": "#6E88CE",
+        "color6": "#7891E2",
+        "color7": "#c3c3c3",
+        "color8": "#6c5959",
+        "color9": "#586DAE",
+        "color10": "#647AB6",
+        "color11": "#6376D1",
+        "color12": "#6981BC",
+        "color13": "#6E88CE",
+        "color14": "#7891E2",
+        "color15": "#c3c3c3"
     }
 }

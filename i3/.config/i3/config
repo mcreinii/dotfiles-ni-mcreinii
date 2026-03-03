@@ -12,6 +12,7 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id picom
 exec --no-startup-id polybar
 exec --no-startup-id $HOME/.fehbg
+exec --no-startup-id sleep 1 && i3-msg reload
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
@@ -113,3 +114,10 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+assign [class="^firefox$"] 2
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
