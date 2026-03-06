@@ -8,11 +8,12 @@ logout="  Logout"
 suspend="󰤄  Suspend"
 
 chosen=$(printf "%s\n%s\n%s\n%s\n%s" \
-    "$lock" \
     "$logout" \
-    "$suspend" \
+    "$lock" \
+    "$shutdown" \
     "$reboot" \
-    "$shutdown" | rofi -dmenu -theme $HOME/.config/rofi/power_menu.rasi)
+    "$suspend" \
+    | rofi -dmenu -theme $HOME/.config/rofi/power_menu.rasi)
 
 case "$chosen" in
     "$shutdown")

@@ -97,7 +97,7 @@ client.focused_inactive $color0 $color0 $fg $color0 $color0
 client.urgent           $color1 $color1 $bg $color1 $color1
 client.placeholder      $color0 $color0 $fg $color0 $color0
 
-gaps top 0
+gaps top 4
 gaps horizontal 4
 gaps bottom 4
 gaps inner 8
