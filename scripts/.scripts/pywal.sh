@@ -10,4 +10,3 @@ touch $HOME/.config/alacritty/alacritty.toml
 # Starship
 cp -f $HOME/.cache/wal/starship.toml $HOME/.config/starship.toml
 
-cp -f $HOME/.cache/wal/dunstrc $HOME/.config/dunst/.
