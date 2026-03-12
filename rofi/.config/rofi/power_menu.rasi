@@ -1,7 +1,7 @@
 @theme "~/.cache/wal/rofi-theme.rasi"
 
 * {
-    font: "Geist Nerd Font Propo 13";
+    font: "0xProto Nerd Font Propo 13";
 }
 
 #window {
