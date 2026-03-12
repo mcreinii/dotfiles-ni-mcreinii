@@ -1,13 +1,13 @@
 @theme "~/.cache/wal/rofi-theme.rasi"
 
 * {
-    font: "0xProto Nerd Font Mono 13";
+    font: "Geist Nerd Font Propo 13";
 }
 
 window {
-    border: 4px;
     padding: 8px;
     children: [listview];
+    border-radius: 8px;
 }
 
 listview {
@@ -21,7 +21,7 @@ listview {
 
 element {
     padding: 0;
-    border-radius: 0;
+    border-radius: 4;
     children: [element-icon];
     min-width: 0;
     min-height: 0;
