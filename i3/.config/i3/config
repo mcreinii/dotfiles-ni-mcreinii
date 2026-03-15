@@ -3,6 +3,11 @@ exec_always --no-startup-id xrdb $HOME/.cache/wal/colors.Xresources
 
 set $mod Mod1
 
+set $browsers 3
+set $utility 2
+set $extras 4
+set $messages 5
+
 font pango:0xProto Nerd Font Mono 8
 
 exec --no-startup-id dex --autostart --environment i3
@@ -97,6 +102,7 @@ client.focused_inactive $color0 $color0 $fg $color0 $color0
 client.urgent           $color1 $color1 $bg $color1 $color1
 client.placeholder      $color0 $color0 $fg $color0 $color0
 
+gaps top -4
 gaps inner 4
 
 mode "resize" {
@@ -113,6 +119,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 assign [class="^firefox$"] 3
+assign [class="^vesktop$"] $messages
+assign [class="^discord$"] $messages
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad

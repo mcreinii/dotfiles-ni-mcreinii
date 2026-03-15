@@ -1,11 +1,12 @@
 @theme "~/.cache/wal/rofi-theme.rasi"
 
 * {
-    font: "0xProto Nerd Font Propo 13";
+    font: "GeistMono Nerd Font Propo 13";
 }
 
 window {
     padding: 8px;
+    border: 1;
     children: [listview];
     border-radius: 8px;
 }

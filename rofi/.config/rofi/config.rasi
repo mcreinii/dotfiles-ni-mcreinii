@@ -5,11 +5,12 @@ configuration {
 }
 
 * {
-    font: "0xProto Nerd Font Propo 13";
+    font: "GeistMono Nerd Font Propo 13";
 }
 
 #window {
     padding: 8px;
+    border: 1;
     children: [inputbar, listview];
     spacing: 4px;
     border-radius: 8px;
